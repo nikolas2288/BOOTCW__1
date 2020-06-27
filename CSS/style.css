@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 64px;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+.container {
+    text-align: center;
+}
+
+img:last-child {
+    display: none;
+}
+
+.srcl {
+    border: 2px solid #1275B9;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.srcl:hover {
+    background: #1275B9;
+}
+
+.srcl:hover img:last-child {
+    display: block;  
+}
+
+.srcl:hover img:first-child {
+    display: none;
+}
